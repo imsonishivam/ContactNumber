@@ -1,0 +1,116 @@
+body {
+    background-image: url(image.jpg);
+    background-size: cover;
+    color: rgb(24, 101, 121);
+}
+
+.container {
+    margin: 10% 20%;
+    height: 500px;
+    background-color: rgb(155, 232, 252);
+    border-radius: 40px;
+}
+
+
+/*******************************
+********** left part **********/
+
+.left_part {
+    height: 500px;
+    width: 30%;
+    float: left;
+}
+
+img {
+    width: 100px;
+    padding: 70px 70px 0 70px;
+}
+
+.left_heading, .main_email {
+    margin: 0;
+}
+
+.left_heading {
+    padding-left: 42px;
+}
+
+.main_email {
+    padding-left: 41px;
+}
+
+.fas {
+    margin: 80px 80px 0 80px;
+    font-size: 80px;
+}
+
+.left_heading-2 {
+    margin: 0 50px;
+}
+
+/*********************************
+*********** right part ***********/
+
+.right_part {
+    width: 70%;
+    height: 500px;
+    float: left;
+    background-color: rgb(24, 101, 121);
+    border-radius: 20px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.contact {
+    margin: 0 40px;
+}
+
+.upper_part {
+    height: 80px; 
+    
+}
+
+.right_heading {
+    color: rgb(155, 232, 252);
+    font-size: 40px;
+    margin: 30px 0 0 0;
+    text-align: center;
+
+}
+
+.all_contact {
+    height: 350px;
+    overflow: scroll;
+
+}
+
+.A{
+    text-align: center;
+    background-color: turquoise;
+    border-radius: 10px; 
+    margin: 20px 0; 
+    padding: 10px;  
+    position: sticky;
+    top: 0;
+    box-shadow: 3px 3px 10px 0px rgb(54, 206, 206);;
+}
+
+.information {
+    background-color: rgb(155, 232, 252);
+    margin: 10px 0 10px 0;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px 0px rgb(55, 164, 208);
+}
+
+.name, .number {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.name {
+    float: left;
+}
+
+.number {
+    float: right;
+}
